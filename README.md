@@ -1,8 +1,8 @@
-### API livros doados
+# API Livros Doados
 
-essa é uma API feita com flask e SQlite para fins de estudos com o intuito de permitir cadastrar e listar os livros doados.
+essa é uma API para fins de estudos com o intuito de permitir cadastrar e listar os livros doados.
 
-# Como rodar o projeto?
+### Como rodar o projeto?
 
 1. Faça o clone do repositório:
 
@@ -47,8 +47,7 @@ A API estará disponível em  http://177.0.0.1:500/
 
 Endpoint para cadastro das informações do livro doado.
 
-**Envio das informações (JSON):**
-
+### **Envio das informações (JSON):**
 
 ```json
 
@@ -66,11 +65,12 @@ Endpoint para cadastro das informações do livro doado.
 {
     "mensagem": "Livro doado com sucesso!"
 }
+
 ```
 
-### GET / retornar livros cadastrados
+### GET / Livros
 
-Retorna todos os livros cadastrados 
+Retorna todos os livros cadastrados
 
 **Resposta(200):**
 
@@ -91,7 +91,6 @@ Retorna todos os livros cadastrados
 - Flask
 - SQLite
 - Flask-CORS
-
 
 ```(colar
 
